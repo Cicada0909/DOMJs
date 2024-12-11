@@ -6,7 +6,7 @@ const userDescription = document.createElement("p");
 
 userName.textContent = prompt("Введите ваше имя");
 
-userDescription.textContent = prompt("Введите кратку информацию о себе");
+userDescription.textContent = prompt("Введите краткую информацию о себе");
 
 userProfile.append(userName);
 
